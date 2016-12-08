@@ -1,3 +1,17 @@
+
+NOTE : DOWNLOAD THE FOLDER RelEXParser, and directly run the file parser.py, using command 
+
+""python parser.py".
+
+For syntax and man page type "help" when the code is in execution.
+
+For list of assumptions type "assumptions" when the code is in execution.
+
+Python 2.7 is required.
+
+A, B, tax , C, R, S are sample databases on which queries can be done. User can add his own databases also.
+
+
 Project Aim: 
 
 Implement all the operations of relational algebra
