@@ -1,5 +1,4 @@
 #RelEXParser
-
 A basic parser made in python, which can parse and process expressions written in relation algebra. The usefulness of relational algebra is that it is not database-query language specific and can acts as an intermediate language for writing and representing database queries in a more universal and mathematical format.
 
 #System requirements
