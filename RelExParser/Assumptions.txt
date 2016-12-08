@@ -1,0 +1,10 @@
+	ASSUMPTIONS
+
+1. The attributes names in the relations begin with the filename seperated by period.
+2. The file has following format.
+	line 1: attribute list(delim == | )
+	line 2: datatype list(delim == | )
+	line 3: -------------------------------
+Then all tupples
+3. Delimiter is "|"
+4.No aggregate functions

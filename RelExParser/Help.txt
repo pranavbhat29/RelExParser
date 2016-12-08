@@ -1,0 +1,59 @@
+=======> This is the help Documentation for the Relational Algebra <========
+	Here we have help for all the instructions
+
+1.Selection :
+	This is used to simulate the select or the sigma operator of relational algebra to select few tupples.
+   Syntax : " select/sig | <relation_name> | on | <conditions> "
+	This can also be used recursively,where , you need to write the name of expression instead of the <relation_name> field
+--------------------------------------------------------------------------------------------------------------------------------------------------
+2.Project :
+	This is used to simulate the project or the pi operator of relational algebra to project few columns.
+   Syntax : " project/pi | <list_of_attributes> | from | <relation_name> "
+	This can also be used recursively,where , you need to write the name of expression instead of the <relation_name> field 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+3.Rename :
+	This is used to rename a relation along with all its attributes, like the rho operator in relational algebra.
+    Syntax : " rename/rho | <old_relation_name> | to | <new_relation_name> | <new_attributes> "
+	This can also be used recursively,where , you need to write the name of expression instead of the <old_relation_name> field   
+
+    This can also be simulated for renaming the relation only using the "newname <-- oldname" operator
+--------------------------------------------------------------------------------------------------------------------------------------------------
+4.Display :
+	This is used to display a relation whose name is given as the argument.
+    Syntax : " display | <relation_name>
+	This can also be used recursively,where , you need to write the name of expression instead of the <relation_name> field 
+	Without any display is as good as display
+This ends the loop also
+--------------------------------------------------------------------------------------------------------------------------------------------------
+5.Diff :
+	This is used to find set difference.
+    Syntax : " diff/- | <relation_list_seperated_by_commas>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+6.Union :
+	This is used to find set union.
+    Syntax : " union/U | <relation_list_seperated_by_commas>
+	
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+7.Intersect :
+	This is used to find set intersection.
+    Syntax : " intersect/n | <relation_list_seperated_by_commas>
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+8.Natural Join :
+	This is used to display natural join of 2 or more relation.
+    Syntax : " join/* | <relation_list_seperated_by_commas>
+	
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+9.Theta Join :
+	This is used to display theta join of 2 conditions.
+    Syntax : " theta | <relation_list_seperated_by_commas> | on | <join_condition> "
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+10.Division :
+	This is used to display division between 2 compatible relations.
+    Syntax : " div/% | <dividend> | <divisor> "
+
